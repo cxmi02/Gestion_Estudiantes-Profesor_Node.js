@@ -1,0 +1,18 @@
+{
+  "name": "gestion_estudiantes-profesor_node",
+  "version": "1.0.0",
+  "description": "Desarrollar una API REST en Node.js que utilice MongoDB para gestionar información de estudiantes y profesores, implementando operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para ambas entidades y estableciendo una relación entre estudiantes y profesores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.2"
+  }
+}
