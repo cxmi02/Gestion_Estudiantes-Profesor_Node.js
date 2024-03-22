@@ -66,7 +66,8 @@ const teacherController = {
             console.error('error deleting Teacher:', error);
             res.status(500).json({ message: 'Internal Server Error' });
         }
-    }
+    },
+    
 };
 
 module.exports = teacherController;

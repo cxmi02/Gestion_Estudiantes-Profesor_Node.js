@@ -1,4 +1,5 @@
 const Student = require('../model/studentModel');
+const Teacher = require('../model/teacherModel');
 
 const studentController = {
 
